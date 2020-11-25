@@ -64,7 +64,9 @@
       })();
     </script>
     <script>
-      analytics.page("Site Visited");
+      analytics.page("Site Visited"{
+                     visitor_id: document.cookie.ajs_anonymous_id
+                     });
     </script>
     <meta charset="UTF-8" />
     <title>JPappendick's Website</title>
